@@ -6,6 +6,12 @@ contents of a [Debian package](http://www.debian.org/doc/manuals/debian-faq/ch-p
 hosting repository managed by the [reprepro](http://mirrorer.alioth.debian.org/) 
 tool. reprapi is written in the [Go Programming Language](http://golang.org).
 
+This tool was developed during a "Hack Day" while I was working for [Skybox](http://skybox.com). 
+While I was there, we managed the lifecycle of internal services by building Debian 
+packages and distributing them among various repositories depending on the environment. 
+This tools allowed us to provide a more dynamic view into the stages of our packaging 
+workflow.
+
 ## Endpoints
 
 <table>
